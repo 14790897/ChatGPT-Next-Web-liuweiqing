@@ -2083,7 +2083,6 @@ function _Chat() {
                   onInput={(e) => onInput(e.currentTarget.value)}
                   value={userInput}
                   onKeyDown={onInputKeyDown}
-                  onClick={scrollToBottom}
                   onPaste={handlePaste}
                   rows={inputRows}
                   autoFocus={autoFocus}
